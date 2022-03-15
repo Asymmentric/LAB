@@ -8,7 +8,7 @@ for i in s:
   
 #pgm 2
 pwd=input()
-obj=re.match('^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*#$@_)[a-zA-Z0-9_@#$]{6,16}',pwd)
+obj=re.match('^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*#$@_)[a-zA-Z0-9_@#$]{6,16}$',pwd)
 if obj:
   print("OK")
 else:
