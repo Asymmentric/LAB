@@ -11,4 +11,4 @@ for letter in str1:
         
 file2.write(str2)
 file2.close()
-file1.close(
+file1.close()
